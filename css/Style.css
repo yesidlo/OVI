@@ -1,0 +1,281 @@
+/*id */
+#contenedor {
+width: 800px;
+height: auto;
+margin: auto;
+position:relative;
+}
+
+#navegador {
+  /* padding: 10px;*/
+
+   width: 600;
+   /*margin: 4px;
+   font-size: 24px;*/
+}
+/*id para los botones*/
+#boton{
+	width: 40px;
+	height: 40px;
+	margin-top: 30px;
+	margin-left: 25px;
+	border: solid;
+	border-radius.left: 5px;
+	border-color: #ffffff;
+	background: #005883;
+	padding: 2px 2px;
+	border-radius: 10px 10px 10px 10px;	
+}
+#boton2{
+	width: 40px;
+	height: 40px;
+	margin-top: 30px;
+	margin-left: 5px;
+	border: solid;
+	border-radius.left: 5px;
+	border-color: #ffffff;
+	background: #005883;
+	padding: 2px 2px;
+	border-radius: 10px 10px 10px 10px;	
+}
+#lecturasection{
+	/*ancho del section */
+	width: 560px;
+	/*alto del section */
+	height: auto;
+	/*color del fondo */
+	background-color: #ffffff;
+	/*separar del nav */
+	margin-top: 20px;
+	/*direccionar a la izquierda */
+	float: left;
+	/*redondear margenes */
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	
+}
+#actividad{
+	width: 550px;
+	height: auto;
+	
+	border: solid;
+	border-radius: 10px;
+	border-color: #005883;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+#multimedia{
+	/*ancho del section */
+	width: 560px;
+	/*alto del section */
+	height: 600px;
+	/*color del fondo */
+	background-color: #ffffff;
+	/*separar del nav */
+	margin-top: 20px;
+	/*direccionar a la izquierda */
+	float: left;
+	/*redondear margenes */
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+
+}
+/*no se quiere ningun estilo(asterisco, numeros,viñetas,etc..)  */
+ul, ol{
+	list-style-type:none;
+}
+/*clase */
+.nav li a{
+	padding: 10px 15px;
+	display: block;
+	background-color:#005883;
+	color: #ffffff; 
+	/*se elimina la linea que se prsenta al crear el hipervinculo */
+	text-decoration: none;
+}
+/*Se coloque una lista al pasar el cursos */
+.nav li a:hover{
+	background-color: #F0B429;
+}
+/*Se cambia a modo horizontal*/
+.nav > li{
+	float: left;
+}
+.nav li ul{
+	/*NQue los menus desaparescan */
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+/*NPara que aparesca nuevamente la lista */
+.nav li:hover > ul{
+	display: block;
+}
+.nav li ul li{
+	position: relative;
+}
+
+nav{
+	width: 800px;
+	height: 70px;
+	background-color: #005883;
+	border: solid;
+	border-radius: 10px;
+	border-color: #005883;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	position: fixed;
+	margin-top: 130px;
+}
+body{
+	background-image: url(../img/fondo.jpg);
+	/*No se repita la imagen */
+	background-repeat: no-repeat;
+	background-size: cover;	
+	}
+
+h2{
+	font-family: verdana;
+	color:#005883;
+	margin-left: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+h3{
+	font-family: verdana;
+	color:#005883;
+	text-align: center;
+}
+h4{
+
+	color:#005883;
+}
+
+
+header{
+	width: 800px;
+	height: 164px;
+	border: solid;
+	border-radius.left: 5px;
+	border-color: #005883;
+	/*Deja fija la cabecera*/
+	margin-top: -27px;
+	position: fixed;
+}
+
+ul{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	text-decoration: none;
+	font-size: 24px;
+	color: #ffffff;
+}
+section{
+	/*ancho del section */
+	width: 560px;
+	/*alto del section */
+	height: 640px;
+	/*color del fondo */
+	background-color: #ffffff;
+	/*separar del nav */
+	margin-top: 220px;
+	/*direccionar a la izquierda */
+	float: left;
+	/*redondear margenes */
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+#asidemultimedia1{
+	width: 220px;
+	height: 600px;
+	background: #f47920;
+	margin-top: 20px;
+	float: left;
+	margin-left: 20px;
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-color: #f47920;
+}
+aside{
+	width: 220px;
+	height: auto;
+	background: #f47920;
+	margin-top: 220px;
+	float: left;
+	margin-left: 20px;
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-color: #f47920;
+
+}
+footer{
+	width: 800px;
+	height: 120px;
+	background: #005883;
+	color: #ffffff;
+	margin-top: 20px;
+	float: left;
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	/*No quede pegado en la barra del navegador*/
+	border-bottom: 20px;
+		
+}
+.footer p{
+	text-align: center;
+}
+footer p{
+/*se agrupa hacia a la izquieda*/
+text-align: left;
+margin-top: 30px;
+float: right;
+/*margenes de distancia de izquierda al centro*/
+margin-left: 250px;
+/*permitio tener una posicion absoluta en este caso al centro*/
+position: absolute;
+font-size:12px;
+/*espacio entre textos*/
+line-height: 12px;
+/*un resaltado natural*/
+font-weight: normal;
+
+	
+}
+footer figure img{
+	height: 75px;
+	width: 230px;
+	float: right;
+	margin-left: 520px;
+	position:absolute;
+	margin-top: 20px;
+	margin-right: 10px;
+	text-align: right;
+}
+
+p{
+	font-size: 15px;
+	/*para darle negrira al texto*/
+	font-weight: bolder;
+	/*alto de linea, para que no quede tan apiñado*/
+	line-height: 24px;
+	text-align: justify;
+	/*separar un poco de los margenes*/
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+iframe{
+	height: 200px;
+	width: 400px;
+}
